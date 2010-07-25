@@ -1,8 +1,9 @@
-debhelper (7.9.4) UNRELEASED; urgency=low
+debhelper (7.9.4) unstable; urgency=low
 
+  [ Carsten Hey ]
   * dh_fixperms: Ensure files in /etc/sudoers.d/ are mode 440. Closes: #589574
 
- -- Carsten Hey <carsten@debian.org>  Sun, 18 Jul 2010 22:30:06 +0200
+ -- Joey Hess <joeyh@debian.org>  Sun, 25 Jul 2010 14:10:44 -0400
 
 debhelper (7.9.3) unstable; urgency=low
 
