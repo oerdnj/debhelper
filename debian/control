@@ -5,7 +5,8 @@ Maintainer: Debhelper Maintainers <debhelper-devel@lists.alioth.debian.org>
 Uploaders: Niels Thykier <niels@thykier.net>,
            Bernhard R. Link <brlink@debian.org>
 Build-Depends: perl:any,
-               po4a (>= 0.24)
+               po4a (>= 0.24),
+	       dpkg-dev (>= 1.18.0~)
 Standards-Version: 3.9.8
 Vcs-Git: https://anonscm.debian.org/git/debhelper/debhelper.git
 Vcs-Browser: https://anonscm.debian.org/git/debhelper/debhelper.git
@@ -17,7 +18,7 @@ Depends: autotools-dev,
          dh-autoreconf (>= 12~),
          dh-strip-nondeterminism,
          dpkg (>= 1.16.2),
-         dpkg-dev (>= 1.17.0),
+         dpkg-dev (>= 1.18.2~),
          file (>= 3.23),
          libdpkg-perl (>= 1.17.14),
          man-db (>= 2.5.1-1),
